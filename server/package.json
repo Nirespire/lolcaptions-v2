@@ -1,0 +1,23 @@
+{
+  "name": "lolcaptions-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nirespire/lolcaptions-v2.git"
+  },
+  "author": "Sanjay Nair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nirespire/lolcaptions-v2/issues"
+  },
+  "homepage": "https://github.com/Nirespire/lolcaptions-v2#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
+}
