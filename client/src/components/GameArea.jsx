@@ -1,10 +1,19 @@
 import React from 'react';
+import styled from 'styled-components'
+
+
+const StyledGameArea = styled.div`
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+`
 
 function GameArea() {
   return (
-    <div className="gamearea" style={{background:"grey"}}>
-      
-    </div>
+    <StyledGameArea>
+      Game Area
+    </StyledGameArea>
   );
 }
 

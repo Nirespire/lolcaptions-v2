@@ -1,10 +1,19 @@
 import React from 'react';
+import styled from 'styled-components'
+
+
+const StyledChatbox = styled.div`
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+`
 
 function Chatbox() {
   return (
-    <div className="chatbox" style={{background:"grey"}}>
-      
-    </div>
+    <StyledChatbox>
+      Chatbox
+    </StyledChatbox>
   );
 }
 
