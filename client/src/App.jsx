@@ -3,7 +3,7 @@ import Chatbox from './components/Chatbox';
 import GameArea from './components/GameArea';
 import Scoreboard from './components/Scoreboard';
 import InfoText from './components/InfoText';
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const MainContainer = styled.div`
   display: grid;
