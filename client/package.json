@@ -11,12 +11,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint": "eslint src/ --fix",
     "test": "react-scripts test --coverage",
     "test:ci": "cross-env CI=true react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -31,6 +29,8 @@
     ]
   },
   "devDependencies": {
-    "cross-env": "^5.2.0"
+    "cross-env": "^5.2.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "1.18.2"
   }
 }
