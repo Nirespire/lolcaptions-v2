@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components'
+import { withFirebase } from './Firebase'
 
 
 const StyledChatbox = styled.div`
@@ -9,12 +10,12 @@ const StyledChatbox = styled.div`
   background: grey;
 `
 
-function Chatbox() {
-  return (
-    <StyledChatbox>
-      Chatbox
-    </StyledChatbox>
-  );
+class Chatbox extends Component {
+  render() {
+    return (
+    <StyledChatbox/>      
+    )
+  }
 }
 
-export default Chatbox;
+export default withFirebase(Chatbox);
