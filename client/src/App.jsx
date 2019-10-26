@@ -5,6 +5,7 @@ import Scoreboard from './components/Scoreboard';
 import InfoText from './components/InfoText';
 import styled from 'styled-components';
 
+
 const MainContainer = styled.div`
   display: grid;
   grid-template-columns: 75fr 30fr;
