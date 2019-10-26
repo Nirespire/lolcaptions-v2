@@ -4,7 +4,6 @@ import GameArea from './components/GameArea';
 import Scoreboard from './components/Scoreboard';
 import InfoText from './components/InfoText';
 import styled from 'styled-components';
-import { FirebaseContext } from './components/Firebase';
 
 
 const MainContainer = styled.div`
@@ -56,9 +55,7 @@ function App() {
         </LeftColumn>
         <RightColumn>
           <Scoreboard/>
-          <FirebaseContext.Consumer>
           <Chatbox/>
-          </FirebaseContext.Consumer>
         </RightColumn>
       </MainContainer>
     </div>
