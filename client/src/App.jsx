@@ -1,10 +1,9 @@
 import React from 'react';
+import styled from 'styled-components';
 import Chatbox from './components/Chatbox';
 import GameArea from './components/GameArea';
 import Scoreboard from './components/Scoreboard';
 import InfoText from './components/InfoText';
-import styled from 'styled-components';
-
 
 const MainContainer = styled.div`
   display: grid;
@@ -19,7 +18,7 @@ const MainContainer = styled.div`
   background-size: 340px, auto;
   min-height: calc(100vh - 100px);
   margin: 50px;
-`
+`;
 
 const LeftColumn = styled.div`
   display: grid;
@@ -29,7 +28,7 @@ const LeftColumn = styled.div`
   grid-row-gap: 20px;
   justify-items: stretch;
   align-items: stretch;
-`
+`;
 
 const RightColumn = styled.div`
   display: grid;
@@ -39,23 +38,21 @@ const RightColumn = styled.div`
   grid-row-gap: 20px;
   justify-items: stretch;
   align-items: stretch;
-`
+`;
 
 function App() {
   return (
     <div className="App">
-      <header className="header">
-        
-      </header>
+      <header className="header" />
 
       <MainContainer>
         <LeftColumn>
-          <GameArea/>
-          <InfoText/>
+          <GameArea />
+          <InfoText />
         </LeftColumn>
         <RightColumn>
-          <Scoreboard/>
-          <Chatbox/>
+          <Scoreboard />
+          <Chatbox />
         </RightColumn>
       </MainContainer>
     </div>
